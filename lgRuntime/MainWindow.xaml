@@ -1,0 +1,42 @@
+﻿<Window x:Class="lgRuntime.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:lg="clr-namespace:lgRuntime"
+    xmlns:lgUI="clr-namespace:lgRuntime.UI"
+    Title="lgRuntime"
+    Name="Window"
+    Loaded="Window_Loaded"
+    WindowStyle="SingleBorderWindow"
+    WindowState="Normal"
+    Background="#FAFAFA"
+    PreviewKeyDown="HandleKeyboardPress"
+    Stylus.IsPressAndHoldEnabled="False"
+    Stylus.IsTapFeedbackEnabled="False"
+    Cursor="None"
+    Closing="Window_Closing">
+
+    <!-- The outmost Grid object, autosizes to the window size -->
+    <Grid Name="MainGrid">
+
+        <!-- Prototyping Objects, after translation from tool objects -->
+        <Canvas Name="PrototypingObjects">
+            <!--<lg:SimObject></lg:SimObject>-->
+        </Canvas>
+
+        <!-- Debug -->
+        <Grid Name="RuntimeUIGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <lgUI:lgButton x:Name="CloseButton" TextValue="X" Grid.Column="1" HorizontalAlignment="Right" Margin="0,10,42,0" TouchUp="CloseButton_TouchDown"></lgUI:lgButton>
+
+        </Grid>
+    </Grid>
+</Window>

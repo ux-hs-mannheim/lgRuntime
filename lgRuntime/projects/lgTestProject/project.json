@@ -1,0 +1,251 @@
+{
+	"Name": "lgTestProject",
+	Unit: "cm",
+	DPI: 96.0,
+	Screens: {
+		ScreenNumber1: {
+			Name: "ScreenNumber1",
+			BackgroundColor: "#333333",
+			Instances: [{
+				ObjectName: "RotaryLock_Standard",
+				KeepInsideBoundaries: false,
+				X: 10.0,
+				Y: 10.0,
+				Width: 9.0,
+				Height: 9.0,
+				Color: "#AA00FF",
+				"ImagePath": "img/rotary-lock.png",
+				MoveManipulation: {
+					IsEnabled: false,
+					XModifier: 1,
+					YModifier: 1,
+					DiscreteMovementDistanceX: 0.5,
+					DiscreteMovementDistanceY: 0.5,
+					FlickingBehavior: "constant",
+					MovementTime: 4.0,
+					TravelDistance: 2.0,
+					ConstantDeceleration: 10.0
+				},
+				RotateManipulation: {
+					"IsEnabled": true,
+					OneFingerRotationEnabled: true,
+					Modifier: 1,
+					DiscreteRotationAngle: 0,
+					FlickingBehavior: "constant",
+					RotationTime: 2.0,
+					RotateToAngle: 180.0,
+					ConstantDeceleration: 360.0
+				},
+				ScaleManipulation: {
+					IsEnabled: false,
+					XModifier: 1,
+					YModifier: 1,
+					MinWidth: 6.0,
+					MinHeight: 4.0,
+					MaxWidth: 0,
+					MaxHeight: 0,
+					DiscreteScalingX: 0,
+					DiscreteScalingY: 0,
+					FlickingBehavior: "distance",
+					ScalingTime: 3.0,
+					ScaleDistance: 5.0,
+					ConstantDeceleration: 10
+				}
+			}, {
+				ObjectName: "RotaryLock_Designed",
+				KeepInsideBoundaries: true,
+				X: 30.0,
+				Y: 10.0,
+				Width: 9.0,
+				Height: 9.0,
+				Color: "#00FF7F",
+				ImagePath: "img/rotary-lock.png",
+				MoveManipulation: {
+					IsEnabled: false,
+					XModifier: 1,
+					YModifier: 0,
+					DiscreteMovementDistanceX: 0,
+					DiscreteMovementDistanceY: 0,
+					FlickingBehavior: "time",
+					MovementTime: 4.0,
+					TravelDistance: 2.0,
+					ConstantDeceleration: 10.0
+				},
+				RotateManipulation: {
+					IsEnabled: true,
+					OneFingerRotationEnabled: false,
+					Modifier: 1,
+					"DiscreteRotationAngle": 36,
+					FlickingBehavior: "time",
+					RotationTime: 1.0,
+					RotateToAngle: 180.0,
+					ConstantDeceleration: 360.0
+				},
+				ScaleManipulation: {
+					IsEnabled: false,
+					XModifier: 1,
+					YModifier: 1,
+					MinWidth: 0,
+					MinHeight: 0,
+					MaxWidth: 0,
+					MaxHeight: 0,
+					DiscreteScalingX: 1,
+					DiscreteScalingY: 1,
+					FlickingBehavior: "none",
+					ScalingTime: 3.0,
+					ScaleDistance: 2.0,
+					ConstantDeceleration: 10
+				}
+			}, {
+				ObjectName: "Standard Interaction",
+				KeepInsideBoundaries: true,
+				X: 8.0,
+				Y: 7.0,
+				Width: 8.0,
+				Height: 2.0,
+				Color: "#000000FF",
+				MoveManipulation: {
+					IsEnabled: true,
+					XModifier: 1,
+					YModifier: 1,
+					DiscreteMovementDistanceX: 0.5,
+					DiscreteMovementDistanceY: 0.5,
+					FlickingBehavior: "none",
+					MovementTime: 4.0,
+					TravelDistance: 2.0,
+					ConstantDeceleration: 10.0
+				},
+				RotateManipulation: {
+					IsEnabled: false,
+					OneFingerRotationEnabled: false,
+					Modifier: 1,
+					DiscreteRotationAngle: 0,
+					FlickingBehavior: "constant",
+					RotationTime: 2.0,
+					RotateToAngle: 180.0,
+					ConstantDeceleration: 360.0
+				},
+				ScaleManipulation: {
+					IsEnabled: false,
+					XModifier: 3,
+					YModifier: 3,
+					MinWidth: 3.5,
+					MinHeight: 3.5,
+					MaxWidth: 14.0,
+					MaxHeight: 14.0,
+					DiscreteScalingX: 0,
+					DiscreteScalingY: 0,
+					FlickingBehavior: "none",
+					ScalingTime: 3.0,
+					ScaleDistance: 2.0,
+					ConstantDeceleration: 10
+				}
+			}, {
+				ObjectName: "Designed Interaction",
+				KeepInsideBoundaries: true,
+				X: 28.0,
+				Y: 7.0,
+				Width: 8.0,
+				Height: 2.0,
+				Color: "#000000FF",
+				MoveManipulation: {
+					IsEnabled: true,
+					XModifier: 1,
+					YModifier: 1,
+					DiscreteMovementDistanceX: 0.5,
+					DiscreteMovementDistanceY: 0.5,
+					FlickingBehavior: "constant",
+					MovementTime: 4.0,
+					TravelDistance: 2.0,
+					ConstantDeceleration: 10.0
+				},
+				RotateManipulation: {
+					IsEnabled: false,
+					OneFingerRotationEnabled: true,
+					Modifier: 1,
+					DiscreteRotationAngle: 0,
+					FlickingBehavior: "constant",
+					RotationTime: 2.0,
+					RotateToAngle: 180.0,
+					ConstantDeceleration: 360.0
+				},
+				ScaleManipulation: {
+					IsEnabled: false,
+					XModifier: 1,
+					YModifier: 0,
+					MinWidth: 6.0,
+					MinHeight: 0,
+					MaxWidth: 14.0,
+					MaxHeight: 0,
+					DiscreteScalingX: 0,
+					DiscreteScalingY: 0,
+					FlickingBehavior: "distance",
+					ScalingTime: 3.0,
+					ScaleDistance: 4.0,
+					ConstantDeceleration: 10.0
+				}
+			}]
+		},
+		AnotherScreen: {
+			Name: "AnotherScreen",
+			BackgroundColor: "#333333",
+			Instances: []
+		}
+	},
+	Templates: {
+		sampleTemplate: {
+			ObjectName: "sampleTemplate",
+			KeepInsideBoundaries: false,
+			Color: "#00FF7F",
+			MoveManipulation: {
+				IsEnabled: true,
+				XModifier: 0,
+				YModifier: 1,
+				FlickingBehavior: "constant",
+				MovementTime: 4,
+				TravelDistance: 4,
+				ConstantDeceleration: 10.0
+			},
+			RotateManipulation: {
+				IsEnabled: true,
+				OneFingerRotationEnabled: true,
+				Modifier: 1,
+				DiscreteRotation: true,
+				DiscreteRotationAngle: 30
+			},
+			ScaleManipulation: {
+				IsEnabled: true,
+				ModifierX: 1,
+				ModifierY: 1,
+				ExpansionDesiredDeceleration: 1000000
+			}
+		},
+		anotherTemplate: {
+			ObjectName: "anotherTemplate",
+			KeepInsideBoundaries: true,
+			Color: "#00FF00",
+			MoveManipulation: {
+				IsEnabled: true,
+				XModifier: 0,
+				YModifier: 1,
+				FlickingBehavior: "constant",
+				MovementTime: 4,
+				TravelDistance: 4,
+				ConstantDeceleration: 10.0
+			},
+			RotateManipulation: {
+				IsEnabled: true,
+				OneFingerRotationEnabled: true,
+				Modifier: 1,
+				DiscreteRotation: true,
+				DiscreteRotationAngle: 30
+			},
+			ScaleManipulation: {
+				IsEnabled: true,
+				ModifierX: 1,
+				ModifierY: 1,
+				ExpansionDesiredDeceleration: 1000000
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+﻿<Application x:Class="lgRuntime.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="MainWindow.xaml"
+    >
+    <Application.Resources>
+      <ResourceDictionary>
+        <!--<ResourceDictionary.MergedDictionaries>
+          <ResourceDictionary Source="/Microsoft.Surface.Presentation.Generic;v2.0.0.0;31bf3856ad364e35;component/themes\styles.xaml"/>
+        </ResourceDictionary.MergedDictionaries>-->
+      </ResourceDictionary>
+        <!--<SolidColorBrush x:Key="W8_Purple" Color="#FF0097"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Magenta" Color="#A200FF"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Teal" Color="#00ABA9"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Lime" Color="#8CBF26"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Brown" Color="#A05000"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Pink" Color="#E671B8"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Orange" Color="#F09609"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Blue" Color="#1BA1E2"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Red" Color="#E51400"></SolidColorBrush>
+        <SolidColorBrush x:Key="W8_Green" Color="#339933"></SolidColorBrush>-->
+    </Application.Resources>
+</Application>
