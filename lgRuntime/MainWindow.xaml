@@ -7,8 +7,8 @@
     Title="lgRuntime"
     Name="Window"
     Loaded="Window_Loaded"
-    WindowStyle="SingleBorderWindow"
-    WindowState="Normal"
+    WindowStyle="None"
+    WindowState="Maximized"
     Background="#FAFAFA"
     PreviewKeyDown="HandleKeyboardPress"
     Stylus.IsPressAndHoldEnabled="False"
@@ -25,18 +25,25 @@
         </Canvas>
 
         <!-- Debug -->
-        <Grid Name="RuntimeUIGrid">
+        <Grid Name="RuntimeUIGrid" Visibility="Hidden">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
 
             <lgUI:lgButton x:Name="CloseButton" TextValue="X" Grid.Column="1" HorizontalAlignment="Right" Margin="0,10,42,0" TouchUp="CloseButton_TouchDown"></lgUI:lgButton>
+            <TextBlock x:Name="ScreenName"  Grid.Column="1" HorizontalAlignment="Left" FontSize="32">Screen Name</TextBlock>
+
+            <StackPanel x:Name="ScreenButtons"  Grid.Column="0" Orientation="Vertical">
+                <!--<lgUI:lgButton TextValue="abcdefghijklmnopqrstuvwxyz" Height="50" Margin="10,10,0,0" TouchUp="CloseButton_TouchDown"></lgUI:lgButton>-->
+            </StackPanel>
 
         </Grid>
+        
+        <!--Border Width="180" HorizontalAlignment="Right" BorderThickness="5,0,0,0" BorderBrush="Black"></Border>-->
+        <Border Width="190" Height="190" HorizontalAlignment="Right" Margin="40" BorderBrush="Black" BorderThickness="5"></Border>
     </Grid>
 </Window>

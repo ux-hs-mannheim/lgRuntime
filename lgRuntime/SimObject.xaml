@@ -8,13 +8,12 @@
     <Viewbox Stretch="Fill" Name="MainViewbox">
         <Grid Name="MainGrid" Width="auto" Height="auto" Background="#42a35a">
             <!-- the image of the object -->
-            <Image Name="OwnImage" Source="projects/lgTestProject/img/daffy_duck.jpg" Visibility="Hidden" Stretch="Fill"></Image>
+            <Image Name="OwnImage" Source="projects/lgStudy/img/daffy_duck.jpg" Visibility="Hidden" Stretch="Fill"></Image>
             <!-- a colored overlay for the object (somewhat like tinting) -->
             <Rectangle Name="SelectedOverlay" Visibility="Hidden" Fill="SkyBlue" Opacity="0.7"></Rectangle>
             <!-- Debug Text -->
             <TextBlock Name="ObjectNameTextBlock" FontFamily="Georgia" FontSize="60" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black">SimObject</TextBlock>
         </Grid>
-
     </Viewbox>
     
     <!--<UserControl.RenderTransform>

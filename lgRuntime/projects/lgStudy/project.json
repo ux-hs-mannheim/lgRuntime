@@ -1,0 +1,2034 @@
+{
+    "Name": "lgStudy",
+    Unit: "cm",
+    DPI: 96.0,
+    Screens: {
+        Default: {
+            Name: "Default Object",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff004e",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff004e",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff004e",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff004e",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff004e",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        XModifierLow: {
+            Name: "X Modifier Low",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#AA00FF",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 0.3,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#AA00FF",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 0.3,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#AA00FF",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 0.3,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#AA00FF",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 0.3,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#AA00FF",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 0.3,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        XModifierHigh: {
+            Name: "X Modifier High",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#0089ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1.5,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#0089ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1.5,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#0089ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1.5,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#0089ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1.5,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#0089ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1.5,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        YModifierLow: {
+            Name: "Y-Modifier Low",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#93ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 0.3,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#93ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 0.3,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#93ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 0.3,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#93ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 0.3,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#93ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 0.3,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        YModifierHigh: {
+            Name: "Y Modifier High",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffc400",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1.7,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffc400",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1.7,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffc400",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1.7,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffc400",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1.7,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffc400",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1.7,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        DiscreteXLow: {
+            Name: "Discrete X Movement - Low",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 1,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 1,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 1,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 1,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 1,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        DiscreteXHigh: {
+            Name: "Discrete X Movement - High",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 5,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 5,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 5,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 5,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffeb",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 5,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        DiscreteYLow: {
+            Name: "Discrete Y Movement - Low",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0031",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 1,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0031",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 1,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0031",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 1,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0031",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 1,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0031",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 1,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        DiscreteYHigh: {
+            Name: "Discrete Y Movement - High",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#001dff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 5,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#001dff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 5,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#001dff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 5,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#001dff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 5,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#001dff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 5,
+                    FlickingBehavior: "none",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        FlickTimeLow: {
+            Name: "Flick - Time Based - Low",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffa7",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 0.5,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffa7",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 0.5,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffa7",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 0.5,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffa7",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 0.5,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00ffa7",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 0.5,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        FlickTimeHigh: {
+            Name: "Flick - Time Based - High",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#9d00ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#9d00ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#9d00ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#9d00ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#9d00ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "time",
+                    MovementTime: 4.0,
+                    TravelDistance: 2.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        FlickDistanceLow: {
+            Name: "Flick - Distance Based - Low",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#d8ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#d8ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#d8ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#d8ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#d8ff00",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        FlickDistanceHigh: {
+            Name: "Flick - Distance Based - High",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0000",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0000",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0000",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0000",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ff0000",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "distance",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 10.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        FlickConstantLow: {
+            Name: "Flick - Constant - Low",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffd800",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 200.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffd800",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 200.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffd800",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 200.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffd800",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 200.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#ffd800",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 4.0,
+                    TravelDistance: 16.0,
+                    ConstantDeceleration: 200.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        },
+        FlickConstantHigh: {
+            Name: "Flick - Constant - High",
+            BackgroundColor: "#333333",
+            Instances: [{
+                ObjectName: "1",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 0.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00a7ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 5.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "2",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 7.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00a7ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 5.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "3",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 13.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00a7ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 5.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "4",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 20.0,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00a7ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 5.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }, {
+                ObjectName: "5",
+                KeepInsideBoundaries: true,
+                X: 0.5,
+                Y: 26.5,
+                Width: 6.0,
+                Height: 6.0,
+                Color: "#00a7ff",
+                "ImagePath": "",
+                MoveManipulation: {
+                    IsEnabled: true,
+                    XModifier: 1,
+                    YModifier: 1,
+                    DiscreteMovementDistanceX: 0,
+                    DiscreteMovementDistanceY: 0,
+                    FlickingBehavior: "constant",
+                    MovementTime: 0.5,
+                    TravelDistance: 3.0,
+                    ConstantDeceleration: 5.0
+                },
+                RotateManipulation: {
+                    "IsEnabled": false
+                },
+                ScaleManipulation: {
+                    IsEnabled: false
+                }
+            }]
+        }
+        
+    },
+    Templates: {}
+}

@@ -49,17 +49,26 @@ namespace lgRuntime
             this.MainGrid.Background = cConverter.ConvertFromString(this.ProtoDefinition.Color) as SolidColorBrush;
 
             //apply the given image
-            if (this.ProtoDefinition.ImagePath != null)
+            if (this.ProtoDefinition.ImagePath != null && this.ProtoDefinition.ImagePath != "")
             {
                 this.MainGrid.Background = Brushes.Transparent;
                 this.ObjectNameTextBlock.Visibility = Visibility.Hidden;
 
-                BitmapImage src = new BitmapImage();
-                src.BeginInit();
-                src.UriSource = new Uri(App.ProjectPath + this.ProtoDefinition.ImagePath, UriKind.Relative);
-                src.CacheOption = BitmapCacheOption.OnLoad;
-                src.EndInit();
-                this.OwnImage.Source = src;
+                //see if we can load an image
+                try
+                {
+                    BitmapImage src = new BitmapImage();
+                    src.BeginInit();
+                    src.UriSource = new Uri(App.ProjectPath + this.ProtoDefinition.ImagePath, UriKind.Relative);
+                    src.CacheOption = BitmapCacheOption.OnLoad;
+                    src.EndInit();
+                    this.OwnImage.Source = src;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
                 this.OwnImage.Visibility = Visibility.Visible;
 
             }
